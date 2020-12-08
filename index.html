@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title></title>
+</head>
+
+<body>
+  <section class="slide">
+    <div class="slide__header">
+      <div class="slide__left">
+        <h1>ENTOR食堂</h1>
+      </div>
+      <div class="slide__right">
+        <ul class="slide__nav">
+          <li class="slide__item">
+            <a href="#">TOP</a>
+          </li>
+          <li class="slide__item">
+            <a href="#">メニュー</a>
+          </li>
+          <li class="slide__item">
+            <a href="#">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide__menu">
+      <div class="slide__container">
+        <h1 class="slide__title">メニュー一覧</h1>
+        <div class="slide__box">
+          <ul class="slide__list js-modalOpen">
+            <li class="slide__image">
+              <img src="../images/image.png" alt="唐揚げA定食">
+            </li>
+            <li class="slide__name">唐揚げA定食</li>
+          </ul>
+          <ul class="slide__list js-modalOpen">
+            <li class="slide__image">
+              <img src="../images/image.png" alt="唐揚げB定食">
+            </li>
+            <li class="slide__name">唐揚げB定食</li>
+          </ul>
+          <ul class="slide__list js-modalOpen">
+            <li class="slide__image">
+              <img src="../images/image.png" alt="唐揚げC定食">
+            </li>
+            <li class="slide__name">唐揚げC定食</li>
+          </ul>
+          <ul class="slide__list js-modalOpen">
+            <li class="slide__image">
+              <img src="../images/image.png" alt="唐揚げD定食">
+            </li>
+            <li class="slide__name">唐揚げD定食</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide__modal">
+      <div class="slide__bg js-modalClose"></div>
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="../images/image.png" alt="唐揚げA定食"></div>
+          <div class="swiper-slide"><img src="../images/image.png" alt="唐揚げB定食"></div>
+          <div class="swiper-slide"><img src="../images/image.png" alt="唐揚げC定食"></div>
+          <div class="swiper-slide"><img src="../images/image.png" alt="唐揚げD定食"></div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </div>
+
+  </section>
+  <script src="./js/swiper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/./script.js"></script>
+</body>
+
+</html>
