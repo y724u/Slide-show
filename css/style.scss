@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 
 body {
-  width: 656px;
+  // width: 656px;
   height: auto;
   margin: 0 auto;
 }
@@ -13,7 +13,7 @@ body {
   color: #222222;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
-  width: 656px;
+  width: 100%;
   letter-spacing: 0.04em;
 
   &__header {
@@ -73,7 +73,7 @@ body {
     height: 100vh;
     position: fixed;
     top: 0;
-    width: 656px;
+    width: 100%;
     opacity: 0;
     visibility: hidden;
     transition: 0.5s;
