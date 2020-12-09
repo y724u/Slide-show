@@ -20,3 +20,4 @@ $(function() {
     $('.slide__modal').removeClass('show_modal');
   });
 });
+
