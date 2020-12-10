@@ -19,7 +19,7 @@ $(function () {
 
 // <!-- swiper -->
 function showImage($index) {
-  var swiper = new Swiper('.swiper-container', {
+  const swiper = new Swiper('.swiper-container', {
     pagination: {
       el: '.swiper-pagination',
       type: 'fraction',
