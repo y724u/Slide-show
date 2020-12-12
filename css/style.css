@@ -1171,7 +1171,7 @@ body.fixed {
 .slide__name {
   font-size: 16px;
   font-weight: bold;
-  margin: 8px 0 24px 0;
+  margin: 8px 0 24px;
 }
 
 .slide__modal {
@@ -1214,7 +1214,7 @@ body.fixed {
 .swiper-close {
   color: #CFCECE;
   text-align: right;
-  margin: 0 0 0 auto;
+  margin-left: auto;
   padding-bottom: 5px;
   position: relative;
   width: 65px;

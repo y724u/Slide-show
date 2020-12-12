@@ -76,7 +76,7 @@ body {
   &__name {
     font-size: 16px;
     font-weight: bold;
-    margin: 8px 0 24px 0;
+    margin: 8px 0 24px ;
   }
 
   &__modal {
@@ -121,7 +121,7 @@ body {
   &-close {
     color: #CFCECE;
     text-align: right;
-    margin: 0 0 0 auto;
+    margin-left: auto;
     padding-bottom: 5px;
     position: relative;
     width: 65px;
